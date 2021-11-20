@@ -166,17 +166,17 @@ READ_LOCK_STATUS   = TRUE
   #
   # USB Host Support
   #
- # INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
+  INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
 
   #
   # USB Mass Storage Support
   #
-  #INF MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf
+  INF MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf
 
   #
   # USB Peripheral Support
   #
-  #INF EmbeddedPkg/Drivers/AndroidFastbootTransportUsbDxe/FastbootTransportUsbDxe.inf
+  INF EmbeddedPkg/Drivers/AndroidFastbootTransportUsbDxe/FastbootTransportUsbDxe.inf
 
   #
   # Fastboot
@@ -214,7 +214,7 @@ READ_LOCK_STATUS   = TRUE
 
 
 
-!include F11/inc/acpi.inc
+!include F11/acpi.inc
 
   #
   # SMBIOS Support

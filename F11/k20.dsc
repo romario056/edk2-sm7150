@@ -105,7 +105,7 @@
 
   # System Memory (6GB)
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x180000000
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xE5000000
 
   # We only boot one processor here!
   gArmPlatformTokenSpaceGuid.PcdCoreCount|8
@@ -146,8 +146,8 @@
   gF11TokenSpaceGuid.PcdMipiFrameBufferAddress|0x9c000000
 
 
-  gF11TokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-  gF11TokenSpaceGuid.PcdMipiFrameBufferHeight|2880
+  gF11TokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+  gF11TokenSpaceGuid.PcdMipiFrameBufferHeight|2340
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiExposedTableVersions|0x20
 
